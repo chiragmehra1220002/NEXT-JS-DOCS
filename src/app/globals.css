@@ -1,17 +1,6 @@
 
-
-
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 * {
@@ -25,8 +14,6 @@ a {
   text-decoration: none;
   
 }
-
-
 .navbar{
   background-color:white;
   width: 100%;
@@ -35,20 +22,15 @@ a {
   justify-content: space-between;
   color:black;
   padding:0.8rem;
-  font-family: Arial, Helvetica, sans-serif ;
   margin-bottom:4em;
  
-  -webkit-box-shadow: 0px 8px 5px 0px  rgba(163, 152, 152, 0.75);
-  -moz-box-shadow: 0px 8px 5px 0px rgba(163, 152, 152, 0.75);
   box-shadow: 0px 8px 5px 0px  rgba(163, 152, 152, 0.75);
-  
  
  
 }
 .navbar article {
   font-weight:600;
   font-size: 1.4rem;
-  /* margin-right:50%; */
  
   width:180%;
   display:flex;
@@ -76,7 +58,6 @@ a {
   color:white;
 }
 .sidebar a{
-  /* margin-left:2rem; */
   display:flex;
   justify-content: center;
   align-items:center;
@@ -96,8 +77,6 @@ ul.section1 {
   padding: 0;
   margin: 0;
 }
-
-
 ul.section1 li {
   background-color: #f9f9f9;
   margin: 10px 0;
@@ -118,7 +97,6 @@ ul.section1 li h1 {
   margin-bottom: 10px;
   font-weight: bold;
 }
-
 
 ul.section1 li p {
   font-size: 1rem;
